@@ -1,0 +1,55 @@
+# Example YAML with dictionaries, lists, and combinations
+
+# Dictionary (map) with key-value pairs
+person:
+  - name: John Doe
+    age: 30
+    address:
+        street
+        city
+        country
+  - name: Haji Rufai
+    age: 25
+    address:
+        kibokoni
+        mombasa
+        kenya
+
+# List (array) of favorite colors
+colors:
+  - Red
+  - Green
+  - Blue
+
+# List of friends (each friend represented as a dictionary)
+friends:
+  - name: Alice
+    age: 28
+  - name: Bob
+    age: 32
+  - name: Carol
+    age: 29
+
+# Combination of dictionary and list
+employee:
+  id: 101
+  name: Jane Smith
+  roles:
+    - Developer
+    - Team Lead
+  projects:
+    - Project A
+    - Project B
+
+# Nested dictionaries and lists
+organization:
+  name: ABC Inc.
+  departments:
+    - name: Sales
+      employees:
+        - Alice
+        - Bob
+    - name: Engineering
+      employees:
+        - Jane
+        - John

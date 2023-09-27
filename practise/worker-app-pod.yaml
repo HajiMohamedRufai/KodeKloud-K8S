@@ -1,0 +1,15 @@
+apiVersion: v1
+
+kind: Pod
+
+metadata:
+  name: worker-app-pod
+  labels:
+    name: worker-app-pod
+    app: demo-voting-app  # they are all part of the same app
+
+spec:
+  containers:
+    - name: worker-app
+      image: kodecloud/examplevotingapp_worker:v1
+      
